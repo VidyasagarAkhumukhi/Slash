@@ -26,6 +26,22 @@ The final step was to establish the in-game atmosphere. With proper lighting, a 
 
 ![Ground-Level View of the Landscape](https://github.com/user-attachments/assets/36046e4b-e122-4467-8912-de5ba8f22ebc)
 
+The landscape has been brought to life with the addition of foliage and a significant overhaul of the world's lighting.
+
+Using Unreal Engine's foliage system, a variety of assets including trees, grasses, and rocks have been procedurally placed and hand-painted across the terrain. To dramatically enhance the visual mood, post-processing volumes were introduced to control color grading, bloom, and atmospheric effects. This update adds volumetric **god rays** that filter through the trees and a cinematic **golden hour** lighting setup.
+
+![God rays filtering through the new foliage during midday.](URL_FOR_IMAGE_3_HERE)
+<img width="1280" height="1408" alt="HighresScreenshot00003" src="https://github.com/user-attachments/assets/2b9ee366-603a-4eee-9706-49bd17414523" />
+
+![A rocky pass with enhanced lighting and bloom effects.](URL_FOR_IMAGE_4_HERE)
+<img width="1280" height="1408" alt="HighresScreenshot00004" src="https://github.com/user-attachments/assets/b2ccfaa1-d8b3-4bdb-bc42-900f6b3a8b3a" />
+
+![The world at golden hour, showcasing long shadows and warm post-processing.](URL_FO![Uploading HighresScreenshot00004.png…]()
+R_IMAGE_5_HERE)
+
+<img width="1280" height="1408" alt="HighresScreenshot00005" src="https://github.com/user-attachments/assets/bd20c7c0-59ea-48a8-9aea-86626b741f9e" />
+
+
 ## Technology Stack
 
 * **Game Engine:** Unreal Engine 5.6
