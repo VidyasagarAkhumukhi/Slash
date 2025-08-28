@@ -4,8 +4,6 @@
 
 **The Slayer of Demons** is a third-person action RPG being built in **Unreal Engine 5**. Set in a desolate, fallen world, players take on the role of the last of a sacred order, tasked with hunting down powerful demons that have consumed the land.
 
-This README serves as a living document and devlog, tracking the progress from the initial world-building to the final gameplay mechanics.
-
 ## Core Features
 
 * **Challenging Combat:** A skill-based combat system emphasizing timing, dodging, and strategic use of abilities.
@@ -17,15 +15,13 @@ This README serves as a living document and devlog, tracking the progress from t
 
 ### **August 2025: Initial World Creation**
 
-The project began with the creation of the world's foundation. Using Unreal's landscape tools, a 32x32 km grid was sculpted with noise and erosion algorithms to create a base terrain. A multi-layered landscape material was then created, allowing for vertex blending of different PBR textures (sand, rock, grass) based on height and slope to form the initial biomes.
+The project began with the creation of the world's foundation. Using Unreal's landscape tools, a 32x32 km grid was sculpted, and a multi-layered landscape material was created to blend different PBR textures and form the initial biomes.
 
 <img width="800" alt="Raw Landscape Sculpt" src="https://github.com/user-attachments/assets/01d3fe9c-374f-43b5-8873-dbb1c727a821" />
-<br>
-<img width="800" alt="Textured Overhead Map" src="https://github.com/user-attachments/assets/d2167106-6a35-4000-b752-a4f6db1c6cc2" />
 
 ### **Update: August 26, 2025 - Foliage and Atmosphere**
 
-To bring the world to life, high-quality assets from Quixel Megascans were introduced using the foliage system. This allowed for the efficient painting of trees, grass, and rocks across the landscape. The atmosphere was dramatically enhanced with a Post-Processing Volume, adjusting color grading for a high-contrast, cinematic look and enabling effects like volumetric god rays and lens flares for dynamic lighting.
+High-quality assets from Quixel Megascans were introduced using the foliage system to paint trees, grass, and rocks across the landscape. The atmosphere was dramatically enhanced with a Post-Processing Volume, adding effects like volumetric god rays and a cinematic golden hour.
 
 <img width="800" alt="God rays filtering through the new foliage during midday." src="https://github.com/user-attachments/assets/2b9ee366-603a-4eee-9706-49bd17414523" />
 <br>
@@ -33,18 +29,22 @@ To bring the world to life, high-quality assets from Quixel Megascans were intro
 
 ### **Update: August 28, 2025 - World Redesign & Grand Scale**
 
-A significant art direction shift led to a redesign of the world. The environment was reshaped into a vast desert canyon with a lush, temperate oasis at its center. To create a massive sense of scale and enclose the playable area, large backdrop meshes were added to form distant, impassable canyon walls, grounding the world and creating an epic, cinematic horizon.
+A significant art direction shift led to a redesign of the world into a vast desert canyon with a lush oasis at its center. To create a massive sense of scale, large backdrop meshes were added to form distant, impassable canyon walls, grounding the world in an epic, cinematic environment.
 
 <img width="800" alt="The redesigned world map, featuring a central oasis surrounded by a vast desert canyon." src="https://github.com/user-attachments/assets/de24f48e-592e-4612-8421-83c9fc56a9ef" />
 <br>
-<img width="800" alt="The view from the oasis, with the new canyon walls providing a stunning backdrop." src="https://github.com/user-attachments/assets/5900b81a-dd88-4d50-bb8c-40a569541344" />
-<br>
 <img width="800" alt="The expansive desert region, showing the scale and detail of the new environment." src="https://github.com/user-attachments/assets/cdca55a0-dcee-4bee-a20e-eb0027448b8c" />
+
+### **Update: August 28, 2025 - Ancient Ruins & Dungeons**
+
+Marking a transition from broad landscape creation to detailed level design, the first point of interest has been added to the world: a dungeon entrance. These ancient ruins, seamlessly integrated into the natural rock of the canyon walls, will serve as a gateway to the challenges and secrets that lie beneath the desert sands.
+
+<img width="800" height="852" alt="The entrance to an ancient dungeon, seamlessly integrated into the canyon wall." src="https://github.com/user-attachments/assets/81ea1ad5-c10f-427e-8f1b-0b5a3e82cd47" />
 
 
 ## Technology Stack
 
-* **Game Engine:** Unreal Engine 5.6
+* **Game Engine:** Unreal Engine 5
 * **Programming:** C++ (for gameplay systems), Blueprints (for prototyping and logic scripting)
 * **Assets:** Quixel Megascans for high-quality environmental assets.
 * **Version Control:** Git & GitHub
@@ -57,16 +57,16 @@ A significant art direction shift led to a redesign of the world. The environmen
 * [x] Establishing advanced lighting and post-processing.
 * [x] World redesign and backdrop implementation.
 
-### **Phase 2: Core Gameplay (In Progress)**
+### **Phase 2: Core Gameplay & Level Design (In Progress)**
 * [ ] Implementing a playable character controller (movement, abilities).
 * [ ] Developing the core combat system (melee attacks, dodging, blocking).
+* [ ] Building key locations and points of interest within the world.
 * [ ] Creating the first demon enemy type with basic AI.
-* [ ] Building the player HUD and inventory systems.
 
 ### **Phase 3: Content & Narrative (Planned)**
 * [ ] Designing and implementing the main quest line.
 * [ ] Creating additional enemy types and boss battles.
-* [ ] Building key locations and points of interest within the world.
+* [ ] Building the player HUD and inventory systems.
 * [ ] Adding sound effects and a musical score.
 
 Stay tuned for more updates!
